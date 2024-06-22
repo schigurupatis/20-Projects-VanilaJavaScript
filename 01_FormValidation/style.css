@@ -1,0 +1,16 @@
+.form-label {
+    font-weight: bold;
+}
+.f-control.error .form-control {
+    border-color: red;
+}
+.f-control.success .form-control {
+    border-color: green;
+}
+.form-text {
+    visibility: hidden;
+}
+.f-control.error .form-text {
+    visibility: visible;
+    color: red;
+}
